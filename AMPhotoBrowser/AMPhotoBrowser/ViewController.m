@@ -59,10 +59,12 @@
 }
 
 - (void)singleTapEvent:(UITapGestureRecognizer *)gesture {
+    @AMWeakify(self);
     [AMPhotoBrowser showWithImages:self.images
                           curIndex:gesture.view.tag
                          superView:self.view
                     imageViewAlias:^UIImageView *(NSInteger idx) {
+                        @AMStrongify(self);
                         return self.imageViews[idx];
                     }];
 }
