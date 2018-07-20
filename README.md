@@ -13,12 +13,12 @@
 
 ```obj-c
 
-@weakify(self);
+@AMWeakify(self);
 [AMPhotoBrowser showWithImages:images
                       curIndex:curIndex
                      superView:superView
                 imageViewAlias:^UIImageView *(NSInteger idx) {
-                  @strongify(self);
+                  @AMStrongify(self);
                   return imageViews[idx];
                 }];
 
