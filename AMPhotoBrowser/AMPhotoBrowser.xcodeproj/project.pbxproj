@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE507814A033A93C989D56A /* libPods-AMPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA600E1D355AFCC4BA62585 /* libPods-AMPhotoBrowser.a */; };
+		D4348ACB2101DCB2002918B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4348ACA2101DCB2002918B4 /* AppDelegate.m */; };
+		D4348ACE2101DCB2002918B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4348ACD2101DCB2002918B4 /* ViewController.m */; };
+		D4348AD12101DCB2002918B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4348ACF2101DCB2002918B4 /* Main.storyboard */; };
+		D4348AD32101DCB4002918B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4348AD22101DCB4002918B4 /* Assets.xcassets */; };
+		D4348AD62101DCB4002918B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4348AD42101DCB4002918B4 /* LaunchScreen.storyboard */; };
+		D4348AD92101DCB4002918B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4348AD82101DCB4002918B4 /* main.m */; };
+		D4348AE52101DD0A002918B4 /* AutoScale.m in Sources */ = {isa = PBXBuildFile; fileRef = D4348AE32101DD0A002918B4 /* AutoScale.m */; };
+		D4348AEA2101DE0C002918B4 /* AMPhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4348AE62101DE0C002918B4 /* AMPhotoBrowserCell.m */; };
+		D4348AEB2101DE0C002918B4 /* AMPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = D4348AE72101DE0C002918B4 /* AMPhotoBrowser.m */; };
+		D4348AEE2101E2AE002918B4 /* UIColor+AM.m in Sources */ = {isa = PBXBuildFile; fileRef = D4348AED2101E2AE002918B4 /* UIColor+AM.m */; };
+		D4348AF12101E2F4002918B4 /* UIImage+AM.m in Sources */ = {isa = PBXBuildFile; fileRef = D4348AEF2101E2F3002918B4 /* UIImage+AM.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BA600E1D355AFCC4BA62585 /* libPods-AMPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBA38CC7F2ED8A2F6EF5A7A /* Pods-AMPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMPhotoBrowser/Pods-AMPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		D395D451FF3B4288A6875EA3 /* Pods-AMPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMPhotoBrowser/Pods-AMPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		D4348AC62101DCB2002918B4 /* AMPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4348AC92101DCB2002918B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4348ACA2101DCB2002918B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4348ACC2101DCB2002918B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4348ACD2101DCB2002918B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4348AD02101DCB2002918B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4348AD22101DCB4002918B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4348AD52101DCB4002918B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4348AD72101DCB4002918B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4348AD82101DCB4002918B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4348AE22101DD0A002918B4 /* AMMacroUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMacroUtils.h; sourceTree = "<group>"; };
+		D4348AE32101DD0A002918B4 /* AutoScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScale.m; sourceTree = "<group>"; };
+		D4348AE42101DD0A002918B4 /* AutoScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScale.h; sourceTree = "<group>"; };
+		D4348AE62101DE0C002918B4 /* AMPhotoBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPhotoBrowserCell.m; sourceTree = "<group>"; };
+		D4348AE72101DE0C002918B4 /* AMPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPhotoBrowser.m; sourceTree = "<group>"; };
+		D4348AE82101DE0C002918B4 /* AMPhotoBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPhotoBrowserCell.h; sourceTree = "<group>"; };
+		D4348AE92101DE0C002918B4 /* AMPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPhotoBrowser.h; sourceTree = "<group>"; };
+		D4348AEC2101E2AE002918B4 /* UIColor+AM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AM.h"; sourceTree = "<group>"; };
+		D4348AED2101E2AE002918B4 /* UIColor+AM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AM.m"; sourceTree = "<group>"; };
+		D4348AEF2101E2F3002918B4 /* UIImage+AM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AM.m"; sourceTree = "<group>"; };
+		D4348AF02101E2F4002918B4 /* UIImage+AM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AM.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4348AC32101DCB2002918B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE507814A033A93C989D56A /* libPods-AMPhotoBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD0B323B1A5D986BC2E2F85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D395D451FF3B4288A6875EA3 /* Pods-AMPhotoBrowser.debug.xcconfig */,
+				9EBA38CC7F2ED8A2F6EF5A7A /* Pods-AMPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4348ABD2101DCB2002918B4 = {
+			isa = PBXGroup;
+			children = (
+				D4348AC82101DCB2002918B4 /* AMPhotoBrowser */,
+				D4348AC72101DCB2002918B4 /* Products */,
+				ABD0B323B1A5D986BC2E2F85 /* Pods */,
+				E131815E8691A865582F751D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4348AC72101DCB2002918B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4348AC62101DCB2002918B4 /* AMPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4348AC82101DCB2002918B4 /* AMPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D4348AF22101E2FD002918B4 /* Category */,
+				D4348ADF2101DCC9002918B4 /* Class */,
+				D4348AC92101DCB2002918B4 /* AppDelegate.h */,
+				D4348ACA2101DCB2002918B4 /* AppDelegate.m */,
+				D4348ACC2101DCB2002918B4 /* ViewController.h */,
+				D4348ACD2101DCB2002918B4 /* ViewController.m */,
+				D4348ACF2101DCB2002918B4 /* Main.storyboard */,
+				D4348AD22101DCB4002918B4 /* Assets.xcassets */,
+				D4348AD42101DCB4002918B4 /* LaunchScreen.storyboard */,
+				D4348AD72101DCB4002918B4 /* Info.plist */,
+				D4348AD82101DCB4002918B4 /* main.m */,
+			);
+			path = AMPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		D4348ADF2101DCC9002918B4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D4348AE12101DCDC002918B4 /* Utils */,
+				D4348AE02101DCD6002918B4 /* Photo */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D4348AE02101DCD6002918B4 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				D4348AE92101DE0C002918B4 /* AMPhotoBrowser.h */,
+				D4348AE72101DE0C002918B4 /* AMPhotoBrowser.m */,
+				D4348AE82101DE0C002918B4 /* AMPhotoBrowserCell.h */,
+				D4348AE62101DE0C002918B4 /* AMPhotoBrowserCell.m */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		D4348AE12101DCDC002918B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D4348AE22101DD0A002918B4 /* AMMacroUtils.h */,
+				D4348AE42101DD0A002918B4 /* AutoScale.h */,
+				D4348AE32101DD0A002918B4 /* AutoScale.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D4348AF22101E2FD002918B4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D4348AEC2101E2AE002918B4 /* UIColor+AM.h */,
+				D4348AED2101E2AE002918B4 /* UIColor+AM.m */,
+				D4348AF02101E2F4002918B4 /* UIImage+AM.h */,
+				D4348AEF2101E2F3002918B4 /* UIImage+AM.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E131815E8691A865582F751D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA600E1D355AFCC4BA62585 /* libPods-AMPhotoBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4348AC52101DCB2002918B4 /* AMPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4348ADC2101DCB4002918B4 /* Build configuration list for PBXNativeTarget "AMPhotoBrowser" */;
+			buildPhases = (
+				EFDC0ECAA8944ADFD2B63597 /* [CP] Check Pods Manifest.lock */,
+				D4348AC22101DCB2002918B4 /* Sources */,
+				D4348AC32101DCB2002918B4 /* Frameworks */,
+				D4348AC42101DCB2002918B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMPhotoBrowser;
+			productName = AMPhotoBrowser;
+			productReference = D4348AC62101DCB2002918B4 /* AMPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4348ABE2101DCB2002918B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = AAAma;
+				TargetAttributes = {
+					D4348AC52101DCB2002918B4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D4348AC12101DCB2002918B4 /* Build configuration list for PBXProject "AMPhotoBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4348ABD2101DCB2002918B4;
+			productRefGroup = D4348AC72101DCB2002918B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4348AC52101DCB2002918B4 /* AMPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4348AC42101DCB2002918B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4348AD62101DCB4002918B4 /* LaunchScreen.storyboard in Resources */,
+				D4348AD32101DCB4002918B4 /* Assets.xcassets in Resources */,
+				D4348AD12101DCB2002918B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFDC0ECAA8944ADFD2B63597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4348AC22101DCB2002918B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4348AEE2101E2AE002918B4 /* UIColor+AM.m in Sources */,
+				D4348AF12101E2F4002918B4 /* UIImage+AM.m in Sources */,
+				D4348ACE2101DCB2002918B4 /* ViewController.m in Sources */,
+				D4348AD92101DCB4002918B4 /* main.m in Sources */,
+				D4348AEA2101DE0C002918B4 /* AMPhotoBrowserCell.m in Sources */,
+				D4348AEB2101DE0C002918B4 /* AMPhotoBrowser.m in Sources */,
+				D4348ACB2101DCB2002918B4 /* AppDelegate.m in Sources */,
+				D4348AE52101DD0A002918B4 /* AutoScale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4348ACF2101DCB2002918B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4348AD02101DCB2002918B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4348AD42101DCB4002918B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4348AD52101DCB4002918B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4348ADA2101DCB4002918B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4348ADB2101DCB4002918B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4348ADD2101DCB4002918B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D395D451FF3B4288A6875EA3 /* Pods-AMPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AMPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaama.AMPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4348ADE2101DCB4002918B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBA38CC7F2ED8A2F6EF5A7A /* Pods-AMPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AMPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaama.AMPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4348AC12101DCB2002918B4 /* Build configuration list for PBXProject "AMPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4348ADA2101DCB4002918B4 /* Debug */,
+				D4348ADB2101DCB4002918B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4348ADC2101DCB4002918B4 /* Build configuration list for PBXNativeTarget "AMPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4348ADD2101DCB4002918B4 /* Debug */,
+				D4348ADE2101DCB4002918B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4348ABE2101DCB2002918B4 /* Project object */;
+}
