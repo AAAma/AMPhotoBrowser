@@ -4,11 +4,11 @@
 - 双击/捏合缩放
 - 下拉关闭
 
----
+-
 
 ### 依赖
 - [Masonry](https://github.com/SnapKit/Masonry)
 
----
+-
 
 ### 用法
