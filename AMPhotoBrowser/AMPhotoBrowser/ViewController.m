@@ -27,8 +27,7 @@
 
 - (void)setupSubviews {
     NSInteger order = 3;
-    CGSize size = self.view.frame.size;
-    CGFloat w = size.width / 3;
+    CGFloat w = self.view.frame.size.width / 3;
     
     NSMutableArray *images = [NSMutableArray array];
     NSMutableArray *imageViews = [NSMutableArray array];
