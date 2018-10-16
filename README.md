@@ -19,7 +19,7 @@
                      superView:superView
                 imageViewAlias:^UIImageView *(NSInteger idx) {
                   @AMStrongify(self);
-                  return imageViews[idx];
+                  return self.imageViews[idx];
                 }];
 
 ```
