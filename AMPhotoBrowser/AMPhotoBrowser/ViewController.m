@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIColor+AM.h"
 #import "UIImage+AM.h"
+#import "AMMacroUtils.h"
 
 #import "AMPhotoBrowser.h"
 

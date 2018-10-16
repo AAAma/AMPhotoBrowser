@@ -7,6 +7,7 @@
 //
 
 #import "AMPhotoBrowser.h"
+#import "AMPhotoBrowserCell.h"
 #import "AutoScale.h"
 
 @interface AMPhotoBrowser ()<UICollectionViewDataSource, UICollectionViewDelegate, AMPhotoBrowserCellDelegate>

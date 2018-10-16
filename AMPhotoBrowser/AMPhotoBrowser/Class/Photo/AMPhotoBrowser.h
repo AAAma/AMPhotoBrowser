@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AMPhotoBrowserCell.h"
 
 typedef UIImageView *(^AMPhotoBrowserImageViewAliasBlock)(NSInteger idx);
 
